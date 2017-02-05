@@ -6,7 +6,6 @@ SUBDIRS += audiodecoder
 qtHaveModule(widgets) {
     SUBDIRS += \
         radio \
-        spectrum \
         audiorecorder \
         audiodevices \
         audioinput \
