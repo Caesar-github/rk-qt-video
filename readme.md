@@ -11,10 +11,5 @@ The video stack is:
 vpu -> mpp -> gstreamer-rk -> qtmultimedia -> player
 
 ## Build
-apt-get build-dep qtmultimedia-opensource-src
-#### debug
-qmake -r  
-make install
-#### deb
-DEB_BUILD_OPTIONS=nocheck debuild -i -nc -us -uc -b -d  -aarmhf
 
+See https://github.com/rockchip-linux/docker-rockchip
