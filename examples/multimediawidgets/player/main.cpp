@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    QCoreApplication::setApplicationName("Rockhip Player");
+    QCoreApplication::setApplicationName("Rockchip Player");
     QCoreApplication::setOrganizationName("Rockchip");
     QCoreApplication::setApplicationVersion(QT_VERSION_STR);
     QCommandLineParser parser;
