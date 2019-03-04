@@ -16,6 +16,10 @@ ifneq (,$(filter arm,$(DEB_HOST_ARCH_CPU)))
 	export QMAKESPEC= $(CURDIR)/linux-armhf-g++
 endif
 
+ifneq (,$(filter arm64,$(DEB_HOST_ARCH_CPU)))
+	export QMAKESPEC= $(CURDIR)/linux-aarch64-gnu-g++
+endif
+
 # Retrieve packages that have a .install-common file
 pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
 # Retrieve packages that have a .install-$DEB_HOST_ARCH file
