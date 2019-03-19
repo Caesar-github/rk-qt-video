@@ -1,3 +1,9 @@
+qtmultimedia-opensource-src (5.7.1-20190318) unstable; urgency=medium
+
+  * support arm64
+
+ -- Caesar Wang <wxt@rock-chips.com>  Wed, 18 Mar 2019 17:22:59 -0300
+
 qtmultimedia-opensource-src (5.7.1-20161220) unstable; urgency=medium
 
   * gstreamer-rk support
